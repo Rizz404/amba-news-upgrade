@@ -4,6 +4,7 @@ import scare1 from "@/assets/scare-1.jpeg";
 import scare2 from "@/assets/scare-2.jpeg";
 import scare3 from "@/assets/scare-3.jpeg";
 import scare4 from "@/assets/scare-4.jpeg";
+import audioScream from "@assets/scream.mp3";
 
 const scareImages = [scare1, scare2, scare3, scare4];
 
@@ -13,7 +14,7 @@ const Prank = () => {
 
   useEffect(() => {
     // Play scary sound - Ganti URL ini dengan audio kamu sendiri
-    const audio = new Audio("https://www.soundjay.com/misc/sounds/scream-1.mp3");
+    const audio = new Audio(audioScream);
     audio.volume = 1.0;
     audio.play().catch(err => console.log("Audio play failed:", err));
 
@@ -25,7 +26,7 @@ const Prank = () => {
     // Kembali ke home setelah 5 detik
     const timeout = setTimeout(() => {
       navigate("/");
-    }, 5000);
+    }, 10000);
 
     return () => {
       clearInterval(interval);
