@@ -4,7 +4,7 @@ import scare1 from "@/assets/scare-1.jpeg";
 import scare2 from "@/assets/scare-2.jpeg";
 import scare3 from "@/assets/scare-3.jpeg";
 import scare4 from "@/assets/scare-4.jpeg";
-import audioScream from "@assets/scream.mp3";
+import audioScream from "@/assets/scream.mp3";
 
 const scareImages = [scare1, scare2, scare3, scare4];
 
