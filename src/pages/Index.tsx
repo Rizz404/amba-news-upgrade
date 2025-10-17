@@ -16,7 +16,7 @@ const Index = () => {
       {/* Hero Section */}
       <section
         className="relative min-h-screen bg-cover bg-center flex flex-col"
-        style={{ backgroundImage: "url('https://ebilahall.fts.biz.id/storage/photos/1/image_hero.jpg')" }}
+        style={{ backgroundImage: "url('https://ebilahall.fts.biz.id/images/backgrounds/452b30c2fa33dbe67c2abd97f92928165d2e6b0c.png')" }}
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <header className="relative z-10 p-6 md:p-8">
@@ -92,17 +92,17 @@ const Index = () => {
           </div>
           <div className="relative h-96">
             <img
-              src="https://ebilahall.fts.biz.id/storage/photos/1/image_about_1.jpg"
+              src="https://ebilahall.fts.biz.id/images/backgrounds/michel-grolet.jpg"
               alt="Event Setup"
               className="absolute top-0 left-0 w-2/3 h-auto rounded-lg shadow-xl"
             />
             <img
-              src="https://ebilahall.fts.biz.id/storage/photos/1/image_about_2.jpg"
+              src="https://ebilahall.fts.biz.id/images/backgrounds/europeana-music.jpg"
               alt="Catering Detail"
               className="absolute bottom-0 right-0 w-1/2 h-auto rounded-lg shadow-xl z-10"
             />
              <img
-              src="https://ebilahall.fts.biz.id/storage/photos/1/image_about_3.jpg"
+              src="https://ebilahall.fts.biz.id/images/backgrounds/europeana-black-clothes.jpg"
               alt="Couple"
               className="absolute top-1/4 right-1/4 w-1/3 h-auto rounded-lg shadow-xl transform -translate-y-1/2"
             />
@@ -120,9 +120,9 @@ const Index = () => {
             Take a glimpse into the elegance of Ebila Hall. From stunning archways to modern interiors, to unforgettable moments, see the beauty that makes every event here extraordinary.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <img src="https://ebilahall.fts.biz.id/storage/photos/1/gl1.jpg" alt="Gallery 1" className="rounded-lg shadow-lg w-full h-full object-cover" />
-            <img src="https://ebilahall.fts.biz.id/storage/photos/1/gl2.jpg" alt="Gallery 2" className="rounded-lg shadow-lg w-full h-full object-cover" />
-            <img src="https://ebilahall.fts.biz.id/storage/photos/1/gl3.jpg" alt="Gallery 3" className="rounded-lg shadow-lg w-full h-full object-cover" />
+            <img src="https://ebilahall.fts.biz.id/images/backgrounds/09d0bd10d78b5cdd63266ff986caafdcd9e89516.png" alt="Gallery 1" className="rounded-lg shadow-lg w-full h-full object-cover" />
+            <img src="https://ebilahall.fts.biz.id/images/backgrounds/c96541a5e056a40374908c26b787d9206fe8bb4b.png" alt="Gallery 2" className="rounded-lg shadow-lg w-full h-full object-cover" />
+            <img src="https://ebilahall.fts.biz.id/images/backgrounds/82d3f2fa886ef33bcf7a4048249baa337a67ad9b.png" alt="Gallery 3" className="rounded-lg shadow-lg w-full h-full object-cover" />
           </div>
           <button
             onClick={() => navigate("/prank")}
